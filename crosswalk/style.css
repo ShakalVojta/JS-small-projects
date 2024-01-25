@@ -1,0 +1,35 @@
+* {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    width: 200px;
+  }
+  
+  .light {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+  }
+  
+  .light-stop-on {
+    background-image: url(img/stop-on.svg);
+    background-size: contain;
+  }
+  
+  .light-stop-off {
+    background-image: url(img/stop-off.svg);
+    background-size: contain;
+  }
+  
+  .light-walk-on {
+    background-image: url(img/walk-on.svg);
+    background-size: contain;
+  }
+  
+  .light-walk-off {
+    background-image: url(img/walk-off.svg);
+    background-size: contain;
+  }
