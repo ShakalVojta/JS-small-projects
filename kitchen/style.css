@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.container__boxes {
+    margin-top: 4rem;
+    width: 14rem;
+    height: 12rem;
+    border: 6px solid rgb(164, 199, 164);
+    padding-top: 4.3rem;
+
+}
+
+.time {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.empty {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.btn {
+    font-size: 20px;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 30%;
+    margin-left: 3rem;
+    background-color: rgb(164, 199, 164);
+    cursor: pointer;
+}
+
+form {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+input {
+    height: 2rem;
+    width: 7rem;
+    border: 2px solid rgb(164, 199, 164);
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+
+}
